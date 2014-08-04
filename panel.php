@@ -28,6 +28,14 @@ ID улицы: <b><a href="http://btdiler.ru/info.php?c=4&s=<?php echo $_GET['st
 Кто обычно пользуется / отвечает за оплату Интернета? <b><?php echo $_GET['resp']; ?> <?php $gresp = $_GET['resp']; If (empty($gresp )) { echo '<font color=red>не указано</font>'; } ?></b><br>
 Телефон клиента: <font style="background-color:black" color=white face="VERDANA"><b><?php echo $_GET['phone']; ?></b></font><br><br><br><br><br>
 
+<div style="width:325px;float:left;background:orange;">
+<font face=georgia size=3>&nbsp;&nbsp;<a href="http://bitcoin.com.hostinghood.com/entry.php?phone=<?php echo $_GET['phone']; ?>&nextcall=<?php echo $_GET['when']; ?>&street=<?php echo $_GET['street']; ?>&house=<?php echo $_GET['house']; ?>&internet=<?php echo $_GET['internet']; ?>&tv=<?php echo $_GET['tv']; ?>&reg=<?php echo $_GET['reg']; ?>&resp=<?php echo $_GET['resp']; ?>&hometime=<?php echo $_GET['hometime']; ?>&tech=<?php echo $_GET['tech']; ?>&age=<?php echo $_GET['age']; ?>&gender=<?php echo $_GET['gender']; ?>&userid=<?php echo $_GET['userid']; ?>" target=_blank><font color=black>[+] Занести в личный список потенциальных клиентов</font></a></font>
+</div>
+<div style="width:325px;float:right;background:purple;">
+<font face=georgia size=3>&nbsp;&nbsp;<a href="http://bitcoin.com.hostinghood.com/entry.php?phone=<?php echo $_GET['phone']; ?>&nextcall=<?php echo $_GET['when']; ?>&street=<?php echo $_GET['street']; ?>&house=<?php echo $_GET['house']; ?>&internet=<?php echo $_GET['internet']; ?>&tv=<?php echo $_GET['tv']; ?>&reg=<?php echo $_GET['reg']; ?>&resp=<?php echo $_GET['resp']; ?>&hometime=<?php echo $_GET['hometime']; ?>&tech=<?php echo $_GET['tech']; ?>&age=<?php echo $_GET['age']; ?>&gender=<?php echo $_GET['gender']; ?>userid=<?php echo $_GET['userid']; ?>" target=_blank><font color=black>[+] Занести в личный список потенциальных клиентов</font></a></font>
+</div>
+
+
 </font>
 </div>
 
